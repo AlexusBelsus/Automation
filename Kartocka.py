@@ -7,7 +7,8 @@ webDriver = webdriver.Chrome(executable_path='C:\\Users\\User\\PycharmProjects\\
 webDriver.get('https://www.saucedemo.com/')
 webDriver.maximize_window()
 
-
+def kartocka_korzina():
+    return
 
 webDriver.find_element(By.XPATH, '//*[@id="user-name"]').send_keys('standard_user') #Ввод логина
 
