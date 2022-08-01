@@ -2,13 +2,13 @@ import time
 
 from selenium import  webdriver
 from selenium.webdriver.common.by import By
-
+def kartocka_korzina():
+    return
 webDriver = webdriver.Chrome(executable_path='C:\\Users\\User\\PycharmProjects\\pythonProject1\\chromedriver.exe')
 webDriver.get('https://www.saucedemo.com/')
 webDriver.maximize_window()
 
-def kartocka_korzina():
-    return
+
 
 webDriver.find_element(By.XPATH, '//*[@id="user-name"]').send_keys('standard_user') #Ввод логина
 

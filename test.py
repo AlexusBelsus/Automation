@@ -1,2 +1,7 @@
+from Kartocka import kartocka_korzina
+
 a = int(input('number'))
-print(a)
+if a == 1:
+    kartocka_korzina()
+else:
+    print('Error')
