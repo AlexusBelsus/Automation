@@ -1,5 +1,11 @@
+from PyQt6 import uic
+from PyQt6.QtWidgets import QApplication
 
-from Kartocka import kartocka_korzina
+Form, Window = uic.loadUiType("untitled.ui")
 
-a = int(input('Number'))
-print(a)
+app = QApplication([])
+window = Window()
+form = Form()
+form.setupUi(window)
+window.show()
+app.exec()
